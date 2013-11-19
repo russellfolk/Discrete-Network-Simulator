@@ -12,6 +12,7 @@
 	#define __POISSON_RANDOM_VARIABLE__
 
 	#include "uniform_random_variable.h"
+	#include "dns_constants.h"
 
 	#ifndef __CSTDLIB__
 		#define __CSTDLIB__
@@ -23,8 +24,6 @@
 		#include <cmath>
 	#endif
 
-	const double EULER = 2.71828182845904523536f ;
-	const double LAMBDA = 0.5f ;
 
 	/**
 		*	Poisson Distribution Random Variable
