@@ -16,9 +16,8 @@
 	*
 	* This initializes an incoming connection on the router. It sets up the
 	* incoming queue and sets the maximum size of it (based on a global
-	* constant), the location that this connection receives its data from, and
-	* the service delay time needed to switch packets from the input queue to
-	* the output queue.
+	* constant), and the service delay time needed to switch packets from the
+	* input queue to the output queue.
 	*
 	* @param double delay the service delay to switch a packet, service_time
 	* @param int    loc   the address of this router
