@@ -21,7 +21,6 @@
 	* the output queue.
 	*
 	* @param double delay the service delay to switch a packet, service_time
-	* @param int    from  the location of the linked node, received_from
 	* @param int    loc   the address of this router
 	*/
 Incoming_Connection::Incoming_Connection ( double delay , int from , int loc )
@@ -30,7 +29,6 @@ Incoming_Connection::Incoming_Connection ( double delay , int from , int loc )
 	packets_dropped = 0 ;
 	packets_received = 0 ;
 	packets_switched = 0 ;
-	received_from = from ;
 	service_time = delay ;
 	this_location = loc ;
 	queue = new std::queue<Packet*> ;
@@ -49,7 +47,6 @@ Incoming_Connection::~Incoming_Connection ( void )
 	packets_received = -1 ;
 	packets_switched = -1 ;
 	propogation_delay = -1 ;
-	received_from = -1 ;
 	delete queue ;
 }
 

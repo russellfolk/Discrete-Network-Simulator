@@ -43,7 +43,6 @@
 			int packets_dropped ;
 			int packets_received ;
 			int packets_switched ;
-			int received_from ;
 			int this_location ;
 			double service_time ;
 			std::queue<Packet*> queue ;
