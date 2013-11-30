@@ -14,7 +14,7 @@
 /**
 	* Constructor
 	*
-	* This initializes an incomming connection on the router. It sets up the
+	* This initializes an incoming connection on the router. It sets up the
 	* incoming queue and sets the maximum size of it (based on a global
 	* constant), the location that this connection receives its data from, and
 	* the service delay time needed to switch packets from the input queue to
