@@ -45,7 +45,7 @@ Incoming_Connection::~Incoming_Connection ( void )
 	packets_dropped = -1 ;
 	packets_received = -1 ;
 	packets_switched = -1 ;
-	propogation_delay = -1 ;
+	service_time = -1 ;
 	delete queue ;
 }
 
