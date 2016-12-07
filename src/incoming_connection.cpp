@@ -22,15 +22,15 @@
 	* @param double delay the service delay to switch a packet, service_time
 	* @param int    loc   the address of this router
 	*/
-Incoming_Connection::Incoming_Connection ( double delay , int from , int loc )
+Incoming_Connection::Incoming_Connection ( double delay , int loc )
 {
-	maximum_queue_size = QUEUE_SIZE ;
-	packets_dropped = 0 ;
-	packets_received = 0 ;
-	packets_switched = 0 ;
-	service_time = delay ;
-	this_location = loc ;
-	queue = new std::queue<Packet*> ;
+	this->maximum_queue_size = QUEUE_SIZE ;
+	this->packets_dropped = 0 ;
+	this->packets_received = 0 ;
+	this->packets_switched = 0 ;
+	this->service_time = delay ;
+	this->this_location = loc ;
+	//packet_queue = new std::queue<Packet*> ;
 }
 
 /**
@@ -41,12 +41,12 @@ Incoming_Connection::Incoming_Connection ( double delay , int from , int loc )
 	*/
 Incoming_Connection::~Incoming_Connection ( void )
 {
-	maximum_queue_size = -1 ;
-	packets_dropped = -1 ;
-	packets_received = -1 ;
-	packets_switched = -1 ;
-	service_time = -1 ;
-	delete queue ;
+	this->maximum_queue_size = -1 ;
+	this->packets_dropped = -1 ;
+	this->packets_received = -1 ;
+	this->packets_switched = -1 ;
+	this->service_time = -1 ;
+	//delete packet_queue ;
 }
 
 /**
@@ -61,9 +61,9 @@ Incoming_Connection::~Incoming_Connection ( void )
 	*/
 double Incoming_Connection::receive_packet ( Packet * packet )
 {
-	if ( packet->destination == this_location )
+	if ( packet->destination == this->this_location )
 	{
-		++ packets_received ;
+		++ this->packets_received ;
 		double time_in_transit = packet->time_next_step ;
 		delete packet ; // The packet arrived safely and memory must be freed.
 		return time_in_transit ;
@@ -86,13 +86,16 @@ double Incoming_Connection::receive_packet ( Packet * packet )
 	*/
 void Incoming_Connection::enqueue_packet ( Packet * packet )
 {
-	if ( queue.size() < maximum_queue_size )
+	if ( this->packet_queue.size() < this->maximum_queue_size )
 	{
-		packet->time_next_step += service_time ;
-		queue.push( packet ) ;
+		packet->time_next_step += this->service_time ;
+		this->packet_queue.push( packet ) ;
 	}
 	else
+	{
+		//std::cout << "Dropped a packet; Queue size: " << this->packet_queue.size() << ", Max: " << this->maximum_queue_size << std::endl ;
 		Incoming_Connection::drop_packet ( packet ) ;
+	}
 }
 
 /**
@@ -105,7 +108,7 @@ void Incoming_Connection::enqueue_packet ( Packet * packet )
 	*/
 void Incoming_Connection::drop_packet ( Packet * packet )
 {
-	++ packets_dropped ;
+	++ this->packets_dropped ;
 	delete packet ;
 }
 
@@ -119,12 +122,16 @@ void Incoming_Connection::drop_packet ( Packet * packet )
 	*/
 Packet * Incoming_Connection::switch_packet ( void )
 {
-	if ( queue.empty() )
+	if ( this->packet_queue.empty() )
 		return NULL ;
-	if ( queue.front()->time_next_step < global_time )
+	//std::cout << "Time next step: " << this->packet_queue.front()->time_next_step << " Global Time: " << global_time << std::endl ;
+	if ( this->packet_queue.front()->time_next_step > (double)global_time )
 		return NULL ;
-	++ packets_switched ;
-	return queue.pop() ;
+	//std::cout << "Packet to switch" << std::endl ;
+	Packet * p = this->packet_queue.front() ;
+	this->packet_queue.pop() ;
+	++ this->packets_switched ;
+	return p ;
 }
 
 /**
@@ -138,7 +145,7 @@ Packet * Incoming_Connection::switch_packet ( void )
 	*/
 int Incoming_Connection::get_dropped_packets ( void )
 {
-	return packets_dropped ;
+	return this->packets_dropped ;
 }
 
 /**
@@ -152,7 +159,7 @@ int Incoming_Connection::get_dropped_packets ( void )
 	*/
 int Incoming_Connection::get_received_packets ( void )
 {
-	return packets_received ;
+	return this->packets_received ;
 }
 
 /**
@@ -167,5 +174,5 @@ int Incoming_Connection::get_received_packets ( void )
 	*/
 int Incoming_Connection::get_switched_packets ( void )
 {
-	return packets_switched ;
+	return this->packets_switched ;
 }

@@ -9,27 +9,21 @@
 	* Revised:
 	*/
 
-#ifndef __CONNECTION__
-	#define __CONNECTION__
+#ifndef __INC_CONNECTION__
+	#define __INC_CONNECTION__
 
-	#ifndef __QUEUE__
-		#include <queue>
-	#endif
+	#include <cstddef>
+	#include <queue>
+	#include <iostream>
 
-	#ifndef __CONSTANTS__
-		#define __CONSTANTS__
-		#include "dns_constants.h"
-	#endif
-
-	#ifndef __PACKET__
-		#define __PACKET__
-		#include "packet.h"
-	#endif
+	#include "dns_constants.h"
+	#include "packet.h"
+	#include "poisson_random_variable.h"
 
 	class Incoming_Connection
 	{
 		public:
-			Incoming_Connection ( double , int , int ) ;
+			Incoming_Connection ( double , int ) ;
 			~Incoming_Connection ( void ) ;
 			double receive_packet ( Packet * ) ;
 			void enqueue_packet ( Packet * ) ;
@@ -39,13 +33,13 @@
 			int get_received_packets ( void ) ;
 			int get_switched_packets ( void ) ;
 		private:
-			int maximum_queue_size ;
+			unsigned int maximum_queue_size ;
 			int packets_dropped ;
 			int packets_received ;
 			int packets_switched ;
 			int this_location ;
 			double service_time ;
-			std::queue<Packet*> queue ;
+			std::queue<Packet*> packet_queue ;
 	} ;
 
 #endif

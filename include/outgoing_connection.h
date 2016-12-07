@@ -10,27 +10,19 @@
 	* Revised:
 	*/
 
-#ifndef __CONNECTION__
-	#define __CONNECTION__
+#ifndef __OUT_CONNECTION__
+	#define __OUT_CONNECTION__
 
-	#ifndef __QUEUE__
-		#include <queue>
-	#endif
+	#include <cstddef>
+	#include <queue>
 
-	#ifndef __CONSTANTS__
-		#define __CONSTANTS__
-		#include "dns_constants.h"
-	#endif
-
-	#ifndef __PACKET__
-		#define __PACKET__
-		#include "packet.h"
-	#endif
+	#include "dns_constants.h"
+	#include "packet.h"
 
 	class Outgoing_Connection
 	{
 		public:
-			Outgoing_Connection ( double , int , int ) ;
+			Outgoing_Connection ( double ) ;
 			~Outgoing_Connection ( void ) ;
 			void enqueue_packet ( Packet * ) ;
 			void drop_packet ( Packet * ) ;
@@ -38,11 +30,11 @@
 			int get_dropped_packets ( void ) ;
 			int get_transmitted_packets ( void ) ;
 		private:
-			int maximum_queue_size ;
+			unsigned int maximum_queue_size ;
 			int packets_dropped ;
 			int packets_transmitted ;
-			double propogation_delay ;
-			std::queue<Packet*> queue ;
+			double bandwidth ;
+			std::queue<Packet*> packet_queue ;
 	} ;
 
 #endif

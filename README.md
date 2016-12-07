@@ -18,24 +18,16 @@ directory.
 In order to compile the source, the following directories should be present in
 the root directory:
 * bin/
-* docs/
 * include/
-* obj/
 * src/
-* test/
 
 Operation
 ---------
-
+./bin/simulator <seed #> <graph name>
+./bin/create_graph <seed #>
 
 File Manifest
 -------------
-<dl>
-  <dt>README.md</dt>
-  <dd>Basic documentation file.</dd>
-  <dt>LICENSE.md</dt>
-  <dd>BSD 2-Clause license information</dd>
-</dl>
 
 Copyright & License
 -------------------
@@ -65,10 +57,3 @@ Dr. Satyajayant ‘Jay’ Misra for the challenge of building the program.
 
 Changelog
 ---------
-<dl>
-  <dt>v0.0.1</dt>
-  <dd>Initial README file. Mostly filled out, will be added to as I complete
-  the project.</dd>
-  <dd>Initial LICENSE file. Completed and finalized.</dd>
-  <dd>Initial .gitignore file added.</dd>
-</dl>

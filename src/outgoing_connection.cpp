@@ -24,13 +24,13 @@
 	* @param double delay the service delay to switch a packet, service_time
 	* @param int    loc   the address of this router
 	*/
-Outgoing_Connection::Outgoing_Connection ( double delay , int from , int loc )
+Outgoing_Connection::Outgoing_Connection ( double delay )
 {
-	maximum_queue_size = QUEUE_SIZE ;
-	packets_dropped = 0 ;
-	packets_transmitted = 0 ;
-	propogation_delay = delay ;
-	queue = new std::queue<Packet*> ;
+	this->maximum_queue_size = QUEUE_SIZE ;
+	this->packets_dropped = 0 ;
+	this->packets_transmitted = 0 ;
+	this->bandwidth = delay ;
+	//packet_queue = new std::queue<Packet*> ;
 }
 
 /**
@@ -41,11 +41,11 @@ Outgoing_Connection::Outgoing_Connection ( double delay , int from , int loc )
 	*/
 Outgoing_Connection::~Outgoing_Connection ( void )
 {
-	maximum_queue_size = -1 ;
-	packets_dropped = -1 ;
-	packets_transmitted = -1 ;
-	propogation_delay = -1 ;
-	delete queue ;
+	this->maximum_queue_size = -1 ;
+	this->packets_dropped = -1 ;
+	this->packets_transmitted = -1 ;
+	this->bandwidth = -1 ;
+	//delete packet_queue ;
 }
 
 /**
@@ -59,10 +59,10 @@ Outgoing_Connection::~Outgoing_Connection ( void )
 	*/
 void Outgoing_Connection::enqueue_packet ( Packet * packet )
 {
-	if ( queue.size() < maximum_queue_size )
+	if ( packet_queue.size() < maximum_queue_size )
 	{
-		packet->time_next_step += propogation_delay ;
-		queue.push( packet ) ;
+		packet->time_next_step += packet->size / this->bandwidth ;
+		this->packet_queue.push( packet ) ;
 	}
 	else
 		Outgoing_Connection::drop_packet ( packet ) ;
@@ -78,7 +78,7 @@ void Outgoing_Connection::enqueue_packet ( Packet * packet )
 	*/
 void Outgoing_Connection::drop_packet ( Packet * packet )
 {
-	++ packets_dropped ;
+	++ this->packets_dropped ;
 	delete packet ;
 }
 
@@ -92,12 +92,14 @@ void Outgoing_Connection::drop_packet ( Packet * packet )
 	*/
 Packet * Outgoing_Connection::switch_packet ( void )
 {
-	if ( queue.empty() )
+	if ( this->packet_queue.empty() )
 		return NULL ;
-	if ( queue.front()->time_next_step < global_time )
+	if ( this->packet_queue.front()->time_next_step > global_time )
 		return NULL ;
-	++ packets_transmitted ;
-	return queue.pop() ;
+	Packet * p = this->packet_queue.front() ;
+	this->packet_queue.pop() ;
+	++ this->packets_transmitted ;
+	return p ;
 }
 
 /**
@@ -111,7 +113,7 @@ Packet * Outgoing_Connection::switch_packet ( void )
 	*/
 int Outgoing_Connection::get_dropped_packets ( void )
 {
-	return packets_dropped ;
+	return this->packets_dropped ;
 }
 /**
 	* Get Packets Transmitted
@@ -124,5 +126,5 @@ int Outgoing_Connection::get_dropped_packets ( void )
 	*/
 int Outgoing_Connection::get_transmitted_packets ( void )
 {
-	return packets_transmitted ;
+	return this->packets_transmitted ;
 }

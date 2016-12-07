@@ -1,0 +1,1200 @@
+Router 0:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 1:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 2:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 3:
+0 packets created.
+0 packets received.
+0 packets dropped.
+775 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 4:
+0 packets created.
+0 packets received.
+0 packets dropped.
+767 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 5:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 6:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 7:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 8:
+0 packets created.
+774 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 9:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 10:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 11:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 12:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 13:
+0 packets created.
+1552 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 14:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 15:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 16:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 17:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 18:
+777 packets created.
+0 packets received.
+0 packets dropped.
+776 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 19:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 20:
+769 packets created.
+0 packets received.
+0 packets dropped.
+769 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 21:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 22:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 23:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 24:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 25:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 26:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 27:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 28:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 29:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 30:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 31:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 32:
+0 packets created.
+762 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 33:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 34:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 35:
+0 packets created.
+0 packets received.
+0 packets dropped.
+785 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 36:
+786 packets created.
+0 packets received.
+0 packets dropped.
+1566 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 37:
+792 packets created.
+0 packets received.
+0 packets dropped.
+791 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 38:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 39:
+0 packets created.
+779 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 40:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 41:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 42:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 43:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 44:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 45:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 46:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 47:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 48:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 49:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 50:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 51:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 52:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 53:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 54:
+0 packets created.
+0 packets received.
+0 packets dropped.
+767 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 55:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 56:
+0 packets created.
+787 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 57:
+789 packets created.
+0 packets received.
+0 packets dropped.
+1570 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 58:
+779 packets created.
+0 packets received.
+0 packets dropped.
+777 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 59:
+790 packets created.
+0 packets received.
+0 packets dropped.
+789 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 60:
+0 packets created.
+764 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 61:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 62:
+766 packets created.
+0 packets received.
+0 packets dropped.
+765 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 63:
+766 packets created.
+0 packets received.
+0 packets dropped.
+765 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 64:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 65:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 66:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 67:
+0 packets created.
+0 packets received.
+0 packets dropped.
+784 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 68:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 69:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 70:
+0 packets created.
+1563 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 71:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 72:
+0 packets created.
+767 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 73:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 74:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 75:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 76:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 77:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 78:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 79:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 80:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 81:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 82:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 83:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 84:
+783 packets created.
+0 packets received.
+0 packets dropped.
+776 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 85:
+0 packets created.
+785 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 86:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 87:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 88:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 89:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 90:
+783 packets created.
+0 packets received.
+0 packets dropped.
+783 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 91:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 92:
+0 packets created.
+0 packets received.
+0 packets dropped.
+774 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 93:
+767 packets created.
+0 packets received.
+0 packets dropped.
+767 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 94:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 95:
+0 packets created.
+783 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 96:
+0 packets created.
+0 packets received.
+0 packets dropped.
+765 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 97:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 98:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 99:
+0 packets created.
+0 packets received.
+0 packets dropped.
+789 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 100:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 101:
+758 packets created.
+0 packets received.
+0 packets dropped.
+2319 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 102:
+783 packets created.
+0 packets received.
+0 packets dropped.
+782 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 103:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 104:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 105:
+0 packets created.
+775 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 106:
+0 packets created.
+0 packets received.
+0 packets dropped.
+736 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 107:
+742 packets created.
+0 packets received.
+0 packets dropped.
+738 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 108:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 109:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 110:
+0 packets created.
+761 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 111:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 112:
+0 packets created.
+774 packets received.
+0 packets dropped.
+763 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 113:
+788 packets created.
+0 packets received.
+0 packets dropped.
+1560 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 114:
+784 packets created.
+0 packets received.
+0 packets dropped.
+783 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 115:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 116:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 117:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 118:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 119:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 120:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 121:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 122:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 123:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 124:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 125:
+0 packets created.
+0 packets received.
+0 packets dropped.
+782 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 126:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 127:
+0 packets created.
+781 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 128:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 129:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 130:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 131:
+772 packets created.
+0 packets received.
+0 packets dropped.
+771 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 132:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 133:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 134:
+796 packets created.
+0 packets received.
+0 packets dropped.
+1552 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 135:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 136:
+0 packets created.
+783 packets received.
+0 packets dropped.
+785 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 137:
+0 packets created.
+0 packets received.
+0 packets dropped.
+763 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 138:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 139:
+0 packets created.
+757 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 140:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 141:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 142:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 143:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 144:
+0 packets created.
+736 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 145:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 146:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 147:
+0 packets created.
+782 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 148:
+788 packets created.
+0 packets received.
+0 packets dropped.
+785 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
+Router 149:
+0 packets created.
+0 packets received.
+0 packets dropped.
+0 packets transmitted.
+0 packets dropped from in-queue.
+0 packets dropped from out-queue.
+
